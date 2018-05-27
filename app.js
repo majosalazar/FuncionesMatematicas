@@ -9,9 +9,11 @@ const multiply = (add, number1) => add * number1;
 //let number2 = 9824;
 //let number3 = 777;
 
-console.log(add(9842, 777));
+let result1 = add(9842, 777);
+let result2 = multiply(36325, result1);
 
-console.log(multiply(36325, add));
+console.log(result1);
+console.log(result2);
 
 
 
