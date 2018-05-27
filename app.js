@@ -5,14 +5,9 @@ const add = (number2, number3) => number2 + number3;
 const multiply = (add, number1) => add * number1;
 //Usando solamente estas dos funciones, resuelva este simple problema matemático: 36325 * (9824 + 777).
 
-//let number1 = 36325;
-//let number2 = 9824;
-//let number3 = 777;
-
 let result1 = add(9842, 777);
 let result2 = multiply(36325, result1);
 
-console.log(result1);
 console.log(result2);
 
 
